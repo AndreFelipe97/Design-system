@@ -1,0 +1,21 @@
+{
+  "name": "@andre-ignite-ui/tokens",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint ./src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@andre-ignite-ui/ts-config": "*",
+    "@andre-ignite-ui/eslint-config": "*",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  }
+}
