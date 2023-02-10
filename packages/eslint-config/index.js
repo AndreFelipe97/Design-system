@@ -1,3 +1,6 @@
 module.exports = {
-  extends: ['@rocketseat/eslint-config/react']
+  extends: ['@rocketseat/eslint-config/react'], 
+  rules: {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }]
+  }
 }
