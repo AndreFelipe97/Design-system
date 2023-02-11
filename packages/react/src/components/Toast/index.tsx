@@ -1,13 +1,13 @@
-import { X } from "phosphor-react";
+import { X } from 'phosphor-react'
 import {
   ToastContainer,
   ToastContent,
   ToastDescription,
   ToastTitle,
-} from "./styles";
+} from './styles'
 
 export interface ToastProps {
-  description: string;
+  description: string
 }
 
 export function Toast({ description }: ToastProps) {
@@ -19,7 +19,7 @@ export function Toast({ description }: ToastProps) {
       </ToastContent>
       <X size={20} />
     </ToastContainer>
-  );
+  )
 }
 
-Toast.displayName = "Toast";
+Toast.displayName = 'Toast'
